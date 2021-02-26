@@ -1,0 +1,61 @@
+.withPrengi{
+    padding: 80px 0 80px 0;
+    min-height: 896px;
+    background-color: #ffffff;
+    &__items{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        width: 192px;
+        height: 186px;
+        img{
+            margin-left: 84px;
+            margin-right: 84px;
+            width: 100%;
+            
+        }
+    }
+    &__item{
+        position: relative;
+        width: 360px;
+        height: 255px;
+        border: 1px solid #ececec;
+        
+    }
+    &__descr{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: center;
+    }
+    &__descrB{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+    }
+    &__arrow{
+        margin-top: 50px;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        h1{
+            margin-top: 33px;
+            margin-bottom: 37px;
+            color: #393939;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 30.04px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    &__add{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+}

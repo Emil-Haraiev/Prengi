@@ -1,0 +1,91 @@
+.data{
+    min-height: 580px;
+    padding: 80px 0;
+    background: url('../img/main_bg3.jpg') center center/cover no-repeat;
+    &__title{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__left{
+        &-wrapper{
+            position: relative;
+            display: inline-block;
+            margin-right: 10px;
+            &::before{
+                content: '';    
+                position: absolute;
+                right: 0;
+                width: 167px;
+                height: 167px;
+                left: 340px;
+                top: 80px;
+                background-color: #00c2f0;
+                opacity: 0.3;
+            }       
+        }
+        &-header{
+            margin-top: 118px;
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 22px;
+            text-align: right;
+            text-transform: uppercase;
+        }
+        &-text{
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: right;
+        }
+        
+    }
+    &__right{
+        &-wrapper{
+            position: relative;
+            display: inline-block;
+            margin-left: 110px;
+            &::before{
+                content: '';    
+                position: absolute;
+                width: 167px;
+                height: 167px;
+                right: 340px;
+                top: 80px;
+                background-color: #00c2f0;
+                opacity: 0.3;
+            }    
+        }
+        &-header{
+            
+            margin-top: 118px;
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 22px;
+            
+            text-align: left;
+            text-transform: uppercase;
+        }
+        &-text{
+            
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: left;
+        }
+       
+    }
+    
+}

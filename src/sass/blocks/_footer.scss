@@ -1,0 +1,51 @@
+.footer{
+    min-height: 497px;
+    padding: 49px 0 40px 0;
+    background-color: #0082a1;
+    &__descr{
+        width: 377px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    &__logo{
+        margin: 17px 0;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__title{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    &__item{
+        list-style-type: none;
+        a{
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px;
+        }
+    }
+    &__divider{
+        margin-top: 44px;
+        width: 1171px;
+        height: 2px;
+        background-color: #358499;
+    }
+    &__ink{
+        text-align: center;
+        margin-top: 36px;
+        a{
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+        }
+    }
+}
